@@ -40,7 +40,7 @@ A simple and fun console-based **number guessing game** built in **Java**, demon
    javac *.java
 3. Run the Game:
    ```bash
-   java Main▶
+   java Main
    
 ## Contributing
 Feel free to fork this repository, create a branch, and submit a pull request for any improvements or bug fixes.
