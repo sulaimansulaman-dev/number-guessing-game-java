@@ -6,14 +6,14 @@ A simple and fun console-based **number guessing game** built in **Java**, demon
 
 1. Enter your name.
 2. Choose a difficulty:
-   - Easy (1–100)
-   - Medium (1–500)
-   - Hard (1–1000)
+   - Easy (1–10)
+   - Medium (1–50)
+   - Hard (1–100)
 3. Try to guess the number!
 4. The game gives you feedback like:
-   - **Too high!**
-   - **Too low!**
-   - 🎉 **Correct!**
+   - 🟥 **Too high!**
+   - 🟩 **Too low!**
+   - 🟨 **Correct!**
 
 ## 💡 Features
 
@@ -22,7 +22,7 @@ A simple and fun console-based **number guessing game** built in **Java**, demon
 - Stores and shows your previous guesses
 - Clear feedback and console formatting using ANSI escape codes
 
-## 📂 Project Structure
+## 📂 File Structure
 
 - `Main.java` – Runs the game
 - `Game.java` – Abstract superclass
@@ -30,7 +30,7 @@ A simple and fun console-based **number guessing game** built in **Java**, demon
 - `Player.java` – Handles player data
 - `DifficultyLevel.java` – Enum for difficulty options
 
-## 🚀 Getting Started
+## ▶️ Running The Game 
 
 1. Clone the repo:
    ```bash
@@ -40,5 +40,11 @@ A simple and fun console-based **number guessing game** built in **Java**, demon
    javac *.java
 3. Run the Game:
    ```bash
-   java Main
+   java Main▶
+   
+## Contributing
+Feel free to fork this repository, create a branch, and submit a pull request for any improvements or bug fixes.
+
+## Licence
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
    
